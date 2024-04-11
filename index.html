@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cats and zombies</h1>
+
+    <p>Spelet där du ska hitta katten innan zombien tar dig, är han två steg ifrån dig hör du varningen....<p>
+         <p>Du får poäng för varje gång du hittar katten och ett lyckocitat!</p>
+
+         <div class="map-container">
+            <div id="mapImage" class="mapImage"></div>
+            <div id ="catImage" class="catImage"></div>
+            <div id="zombieImage" class="zombieImage"></div>
+           
+            <div id="mapDescription" class="mapDescription"></div>
+        </div>
+        
+        <div class="table-container">
+            <div id="gameboard" class="gameboard"></div>
+           <p id="score" class="score">Poäng: </p>
+           <p id="highScore" class="highScore">Bästa  resultat: </p>
+           <input type="button" value="Väst" onclick="moveplayer('Väst')">
+           <input type="button" value="Nord" onclick="moveplayer('Nord')">
+           <input type="button" value="Öst" onclick="moveplayer('Öst')">
+           <input type="button" value="Syd" onclick="moveplayer('Syd')">
+          
+        </div>
+    
+       
+
+   
+     <div id="api" class="api"></div>
+    <script src="script/api.js"></script>
+    <script src="script/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@media  (min-width: 601px){
+    
+body {
+    background-image:url("../images/bakgrund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+    text-align: center;
+}
+}
+@media (max-width: 600px){
+    header, main, article, footer{
+        display: flex;
+        flex-direction: column;
+    } 
+    
+}
+h1 {
+
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.map-container {
+    display: inline-block; 
+    margin-right: 20px;
+    vertical-align: top; 
+}
+
+.mapImage {
+    width: 300px;
+    height: 250px;
+}
+.catImage{
+  
+    width: 150px; 
+    height: 150px; 
+    background-color: transparent;
+}
+.zombieImage{
+    width: 50px;
+    height: 100px;
+    background-color: transparent;
+    margin-top: -300px;
+}
+
+.mapDescription {
+    width: 300px;
+    text-align: center;
+    margin-top: 350px; 
+}
+.api{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:bisque;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 20px;
+    border: radius 10px; ;
+}
+
+.table-container {
+    display: inline-block; 
+    margin-left: 300px;
+    vertical-align:top; 
+}
+
+
+
+
+
+table td{
+   
+    left: 50%;
+    background-color: bisque;
+   width: 40px;
+   height: 40px;
+  
+   text-align: center;
+}
+
+
+
+input[type="button"] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color:bisque;
+}
