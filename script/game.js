@@ -65,7 +65,7 @@ function drawTable() {
             }
 
             //för kontroll av zombieposition, rita ut ett Z på tabellen
-            /* if (i === currentZombiePosition.row && j === currentZombiePosition.column) {
+             /*if (i === currentZombiePosition.row && j === currentZombiePosition.column) {
                   cell.textContent = "Z"
               }*/
 
